@@ -115,7 +115,8 @@ a:hover {
 
 .example-1,
 .example-2,
-.example-3 {
+.example-3,
+.example-4 {
     background: rgb(73, 73, 73);
     display: flex;
     justify-content: space-evenly;
@@ -184,6 +185,31 @@ a:hover {
 .example-3 .pic-c {
     background-image: url('./images/doom.png');
 }
+
+
+
+.example-4 .pic-a,
+.example-4 .pic-b,
+.example-4 .pic-c {
+   
+    margin: 1em;
+    flex: 1;
+    height: 360px;
+    width: 689px;
+    background-image: url('./images/hydlide.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.example-4 .pic-b {
+     background-image: url('./images/lufia_II.png');
+}
+
+.example-4 .pic-c {
+    background-image: url('./images/baldour.png');
+}
+
+
 
 
 .computer-games p{
