@@ -129,7 +129,7 @@ a:hover {
 .example-2 .pic-c {
     margin: 1em;
     flex: 1;
-    height: 200px;
+    height: 300px;
     width: 689px;
     background-image: url('./images/defender.png');
     background-size: 100%;
@@ -149,7 +149,7 @@ a:hover {
 .example-2 .pic-c {
     margin: 1em;
     flex: 1;
-    height: 200px;
+    height: 300px;
     width: 689px;
     background-image: url('./images/mario1.png');
     background-size: 100%;
@@ -167,10 +167,10 @@ a:hover {
 .example-3 .pic-a,
 .example-3 .pic-b,
 .example-3 .pic-c {
-   ;
+   
     margin: 1em;
     flex: 1;
-    height: 200px;
+    height: 300px;
     width: 689px;
     background-image: url('./images/wolf.png');
     background-size: 100%;
