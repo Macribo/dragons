@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background: #6d6d6d;
+    width: 90%;
+    
+    padding: 5%;
+    text-align: center;
+}
+
+.play {
+    background: rgb(151, 151, 151);
+    padding: 0 10rem 0 ;
+    
+}
+
+.play h3{
+    color:rgb(139, 95, 150);
+}
+
+#play-img {
+    float: right;
+    background-image: url('./images/th.jpeg');
+    width: 474px;
+    height: 345px;
+    border: 10px solid #6d6d6d;
+}
+
+.game {
+    background: rgb(136, 136, 136);
+    padding: 0 10rem 0 ;
+}
+
+.game h3{
+    color:rgb(64, 164, 124);
+}
+.computer-games {
+    background: rgb(126, 126, 126);
+}
+
+.computer-games h3{
+    color:rgb(222, 103, 150);
+    margin: 0 10rem 0 ;
+    
+}
+.main-header {}
+
+.blog-post {}
+
+h1 {
+    background-color: #3a3a3a;
+    color: #6d6d6d;
+    font-size: 5rem;
+}
+
+h2 {
+    background-color: #3a3a3a;
+    color: #6d6d6d;
+    font-size: 4rem;
+    padding:0.5em 1em ;
+}
+
+h3 {
+    background-color: #3a3a3a;
+    color: #6d6d6d;
+    font-size: 3rem;
+}
+
+p,
+q,
+pre {
+    padding: 2rem;
+    font-size: 2rem;
+    color: #404040;
+    text-align: left;
+    clear: both;
+}
+
+pre {
+    text-align: center;
+    line-height: 3rem;
+    color: #d4d4d4;
+}
+
+ul li {
+    font-size: 2rem;
+    color: #404040;
+    list-style-image: url('./images/checkmark.png');
+}
+
+#ul-aligner {
+    float: left;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:visited {
+    color: rgb(255, 94, 0);
+}
+
+a:hover {
+    color: orange;
+}
+
+.example-1,
+.example-2,
+.example-3 {
+    background: rgb(73, 73, 73);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.example-1 .pic-a,
+.example-1 .pic-b,
+.example-1 .pic-c,
+.example-2 .pic-a,
+.example-2 .pic-b,
+.example-2 .pic-c {
+    margin: 1em;
+    flex: 1;
+    height: 200px;
+    width: 689px;
+    background-image: url('./images/defender.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.example-1 .pic-b {
+    background-image: url('./images/katakis.png');
+}
+
+.example-1 .pic-c {
+    background-image: url('./images/gradius.png');
+}
+
+.example-2 .pic-a,
+.example-2 .pic-b,
+.example-2 .pic-c {
+    margin: 1em;
+    flex: 1;
+    height: 200px;
+    width: 689px;
+    background-image: url('./images/mario1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.example-2 .pic-b {
+    background-image: url('./images/mario2.png');
+}
+
+.example-2 .pic-c {
+    background-image: url('./images/mario3.png');
+}
+
+.example-3 .pic-a,
+.example-3 .pic-b,
+.example-3 .pic-c {
+   ;
+    margin: 1em;
+    flex: 1;
+    height: 200px;
+    width: 689px;
+    background-image: url('./images/wolf.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.example-3 .pic-b {
+     background-image: url('./images/quake.png');
+}
+
+.example-3 .pic-c {
+    background-image: url('./images/doom.png');
+}
+
+
+.computer-games p{
+    color:#292929;
+}
+
+.btn{
+    line-height: 1em;
+    height: 4em;
+    width:80%;
+    background-color:#34457e;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #acacac;
+    border: 0.5em solid rgba(51, 51, 51,.5);
+    text-align: center;
+}
+.btn:hover{
+    background-color:#09247e;
+}
+.btn:active{}
