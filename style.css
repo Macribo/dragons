@@ -66,23 +66,34 @@ body {
 }
 
 
-#app-img {
+
+
+.app-img {
     grid-column-start:2;
- 
     grid-column-end:3;
     
-    grid-row-start:2;
-    grid-row-end:3;
-     background-image: url('./images/app_1.png');
-     width: 1062px;
-     height: 892px;
-     max-width: 892px ;
-     max-height:1062px;
+    grid-row-start: 1;
+    grid-row-end:2;     background-image: url('./images/app_1.png');
+     width: 850px;
+     height: 488px;
+     max-width:850px;
+     max-height:488px;
      background-repeat:no-repeat;
      
-     border-radius: 17%;
-     border: 10px solid #6d6d6d;
+ }
+.app-img2 {
+    grid-column-start:2;
+    grid-column-end:3;
     
+    grid-row-start: 2;
+    grid-row-end:3;
+     background-image: url('./images/app_2.png');
+     width: 295px;
+     height: 488px;
+     max-width:295px;
+     max-height:488px;
+     background-repeat:no-repeat;
+     
  }
 .game {
     background: rgb(136, 136, 136);
@@ -122,9 +133,11 @@ h2 {
     color: #6d6d6d;
     font-size: 4rem;
     padding:0.5em 1em ;
+    text-align: center;
+
 }
 
-h3 {
+h3 {text-align: center;
     background-color: #3a3a3a;
     color: #6d6d6d;
     font-size: 3rem;
