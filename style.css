@@ -299,7 +299,7 @@ a:hover {
     background-color:#09247e;
 }
 .btn:active{}
-/*
+
 #loader-wrapper {
     position: fixed;
     top: 0;
@@ -321,9 +321,9 @@ a:hover {
     border: 3px solid transparent;
     border-top-color: #08b308;
     -webkit-animation: spin 2s linear infinite;
-    /*Chrome, opera 15+, safari 5+
+    /*Chrome, opera 15+, safari 5+*/
     animation: spin 2s linear infinite;
-    /*Chrome, firefox 16+, ie10+,  Opera
+    /*Chrome, firefox 16+, ie10+,  Opera*/
     z-index:1001;
 }
 
@@ -338,9 +338,9 @@ a:hover {
     border: 3px solid transparent;
     border-top-color: #002700;
     -webkit-animation: spin 3s linear infinite;
-    /*Chrome, opera 15+, safari 5+
+    /*Chrome, opera 15+, safari 5+*/
     animation: spin 3s linear infinite;
-    /*Chrome, firefox 16+, ie10+,  Opera
+    /*Chrome, firefox 16+, ie10+,  Opera*/
 }
 
 #loader:after {
@@ -354,46 +354,46 @@ a:hover {
     border: 3px solid transparent;
     border-top-color: #024b00;
     -webkit-animation: spin 1.5s linear infinite;
-    /*Chrome, opera 15+, safari 5+
+    /*Chrome, opera 15+, safari 5+*/
     animation: spin 1.5s linear infinite;
-    /*Chrome, firefox 16+, ie10+,  Opera
+    /*Chrome, firefox 16+, ie10+,  Opera*/
 }
 
 @-webkit-keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
-        /*Chrome, Opera 15+, Safari 3.1+
+        /*Chrome, Opera 15+, Safari 3.1+*/
         -ms-transform: rotate(0deg);
         /*IE 9*/
         transform: rotate(0deg);
-        /*Firefox 16+, IE 10+, Opera
+        /*Firefox 16+, IE 10+, Opera*/
     }
     100% {
         -webkit-transform: rotate(360deg);
-        /*Chrome, Opera 15+, Safari 3.1+
+        /*Chrome, Opera 15+, Safari 3.1+*/
         -ms-transform: rotate(360deg);
-        /*IE 9
+        /*IE 9*/
         transform: rotate(360deg);
-        /*Firefox 16+, IE 10+, Opera
+        /*Firefox 16+, IE 10+, Opera*/
     }
 }
 
 @keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
-        /*Chrome, Opera 15+, Safari 3.1+
+        /*Chrome, Opera 15+, Safari 3.1+*/
         -ms-transform: rotate(0deg);
-        /*IE 9
+        /*IE 9*/
         transform: rotate(0deg);
-        /*Firefox 16+, IE 10+, Opera
+        /*Firefox 16+, IE 10+, Opera*/
     }
     100% {
         -webkit-transform: rotate(360deg);
-        /*Chrome, Opera 15+, Safari 3.1+
+        /*Chrome, Opera 15+, Safari 3.1+*/
         -ms-transform: rotate(360deg);
-        /*IE 9
+        /*IE 9*/
         transform: rotate(360deg);
-        /*Firefox 16+, IE 10+, Opera
+        /*Firefox 16+, IE 10+, Opera*/
     }
 }
 
@@ -421,7 +421,7 @@ a:hover {
         width:100%
     }
 
-/*Loaded styles
+/*Loaded styles*/
 .loaded #loader-wrapper .loader-section.section-left{
 -webkit-transform: translateX(-100%);
 -ms-transform: translateX(-100%);
@@ -453,4 +453,4 @@ transition: all 0.3s 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000);
         transition: all 0.3s 1s ease-out;
     }
 
-  */
+  
