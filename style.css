@@ -65,6 +65,25 @@ body {
    
 }
 
+
+#app-img {
+    grid-column-start:2;
+ 
+    grid-column-end:3;
+    
+    grid-row-start:2;
+    grid-row-end:3;
+     background-image: url('./images/app_1.png');
+     width: 1062px;
+     height: 892px;
+     max-width: 892px ;
+     max-height:1062px;
+     background-repeat:no-repeat;
+     
+     border-radius: 17%;
+     border: 10px solid #6d6d6d;
+    
+ }
 .game {
     background: rgb(136, 136, 136);
     padding: 0 10rem 0 ;
