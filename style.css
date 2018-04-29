@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(34, 36, 39);
 }
 
 .container {
@@ -9,9 +10,32 @@ body {
     width: 90%;
     
     padding: 5%;
+  
+    display:grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows:1fr 2fr ;
+    grid-gap:1em;
+    background-color: #3a3a3a;
     text-align: center;
+    justify-items:center;
+
 }
 
+.container2 {
+    background: #6d6d6d;
+    width: 90%;
+    
+    padding: 5%;
+  
+    display:grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows:1fr 2fr ;
+    grid-gap:1em;
+    background-color: #3a3a3a;
+    text-align: center;
+    justify-items:center;
+
+}
 .play {
     background: rgb(151, 151, 151);
     padding: 0 10rem 0 ;
@@ -23,11 +47,22 @@ body {
 }
 
 #play-img {
-    float: right;
-    background-image: url('./images/th.jpeg');
-    width: 474px;
-    height: 345px;
+   grid-column-start:2;
+
+   grid-column-end:3;
+   
+   grid-row-start:2;
+   grid-row-end:3;
+    background-image: url('./images/th.png');
+    width: 1062px;
+    height: 892px;
+    max-width: 892px ;
+    max-height:1062px;
+    background-repeat:no-repeat;
+    
+    border-radius: 17%;
     border: 10px solid #6d6d6d;
+   
 }
 
 .game {
@@ -55,6 +90,12 @@ h1 {
     background-color: #3a3a3a;
     color: #6d6d6d;
     font-size: 5rem;
+    grid-row-start:1;
+    grid-row-end: 2;
+
+    grid-column-start:2;
+    grid-column-end: 3;
+    align-items:center;
 }
 
 h2 {
@@ -73,9 +114,9 @@ h3 {
 p,
 q,
 pre {
-    padding: 2rem;
+
     font-size: 2rem;
-    color: #404040;
+    color: #999999;
     text-align: left;
     clear: both;
 }
@@ -211,11 +252,6 @@ a:hover {
 
 
 
-
-.computer-games p{
-    color:#292929;
-}
-
 .btn{
     line-height: 1em;
     height: 4em;
@@ -231,7 +267,7 @@ a:hover {
     background-color:#09247e;
 }
 .btn:active{}
-
+/*
 #loader-wrapper {
     position: fixed;
     top: 0;
@@ -253,9 +289,9 @@ a:hover {
     border: 3px solid transparent;
     border-top-color: #08b308;
     -webkit-animation: spin 2s linear infinite;
-    /*Chrome, opera 15+, safari 5+*/
+    /*Chrome, opera 15+, safari 5+
     animation: spin 2s linear infinite;
-    /*Chrome, firefox 16+, ie10+,  Opera*/
+    /*Chrome, firefox 16+, ie10+,  Opera
     z-index:1001;
 }
 
@@ -270,9 +306,9 @@ a:hover {
     border: 3px solid transparent;
     border-top-color: #002700;
     -webkit-animation: spin 3s linear infinite;
-    /*Chrome, opera 15+, safari 5+*/
+    /*Chrome, opera 15+, safari 5+
     animation: spin 3s linear infinite;
-    /*Chrome, firefox 16+, ie10+,  Opera*/
+    /*Chrome, firefox 16+, ie10+,  Opera
 }
 
 #loader:after {
@@ -286,46 +322,46 @@ a:hover {
     border: 3px solid transparent;
     border-top-color: #024b00;
     -webkit-animation: spin 1.5s linear infinite;
-    /*Chrome, opera 15+, safari 5+*/
+    /*Chrome, opera 15+, safari 5+
     animation: spin 1.5s linear infinite;
-    /*Chrome, firefox 16+, ie10+,  Opera*/
+    /*Chrome, firefox 16+, ie10+,  Opera
 }
 
 @-webkit-keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
-        /*Chrome, Opera 15+, Safari 3.1+*/
+        /*Chrome, Opera 15+, Safari 3.1+
         -ms-transform: rotate(0deg);
         /*IE 9*/
         transform: rotate(0deg);
-        /*Firefox 16+, IE 10+, Opera*/
+        /*Firefox 16+, IE 10+, Opera
     }
     100% {
         -webkit-transform: rotate(360deg);
-        /*Chrome, Opera 15+, Safari 3.1+*/
+        /*Chrome, Opera 15+, Safari 3.1+
         -ms-transform: rotate(360deg);
-        /*IE 9*/
+        /*IE 9
         transform: rotate(360deg);
-        /*Firefox 16+, IE 10+, Opera*/
+        /*Firefox 16+, IE 10+, Opera
     }
 }
 
 @keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
-        /*Chrome, Opera 15+, Safari 3.1+*/
+        /*Chrome, Opera 15+, Safari 3.1+
         -ms-transform: rotate(0deg);
-        /*IE 9*/
+        /*IE 9
         transform: rotate(0deg);
-        /*Firefox 16+, IE 10+, Opera*/
+        /*Firefox 16+, IE 10+, Opera
     }
     100% {
         -webkit-transform: rotate(360deg);
-        /*Chrome, Opera 15+, Safari 3.1+*/
+        /*Chrome, Opera 15+, Safari 3.1+
         -ms-transform: rotate(360deg);
-        /*IE 9*/
+        /*IE 9
         transform: rotate(360deg);
-        /*Firefox 16+, IE 10+, Opera*/
+        /*Firefox 16+, IE 10+, Opera
     }
 }
 
@@ -353,7 +389,7 @@ a:hover {
         width:100%
     }
 
-/*Loaded styles*/
+/*Loaded styles
 .loaded #loader-wrapper .loader-section.section-left{
 -webkit-transform: translateX(-100%);
 -ms-transform: translateX(-100%);
@@ -385,4 +421,4 @@ transition: all 0.3s 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000);
         transition: all 0.3s 1s ease-out;
     }
 
-  
+  */
