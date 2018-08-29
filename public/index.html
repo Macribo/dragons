@@ -2,70 +2,100 @@
 <html>
 
 <head>
-<script src="../js/jquery.min.js"></script>
-<script src="../js/ritter.js"></script>
-<script>
-
-function loadIt() {
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/ritter1.js"></script>
+    <script src="../js/jqueriesGeaga.js"></script>
+    <!-- <script>
+        function loadIt() {
             setTimeout(function () {
                 var body = document.getElementById('toLoad');
                 body.className += 'loaded';
 
             }, 3000);
-        }</script>
+        }
+    </script> -->
     <meta charset="utf-8">
     <title>Ritterlich Deutsch v1.0.0</title>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 
-<body onload="loadIt()" id="toLoad">
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div class="loader-section section-left">
-            <table class="stripes">
-                <img src= "./images/Comp-1_3.gif"
-                
-            </table>
-        </div>
-        <div class="loader-section section-right"></div>
-    </div>
+<body>
+    <!-- <body onload="loadIt()" id="toLoad"> -->
+    <!-- <div id="loader-wrapper">
 
+        <div id="loader">
+        </div>
+
+
+
+        <div class="loader-section section-left">
+
+        </div>
+        <div class="loader-section section-right"></div> -->
+    <!-- 
+        <div class="nordschwein-logo"></div> -->
 
     <div class="container">
 
-        <h1>
-            3 days after release from hospital,
-            <span style="color:rgb(139, 95, 150)">Henry</span>
-            <span style="color:rgb(64, 164, 124)">Heart</span>
-            Feels fantastic!
-        </h1>
+        <div class="ich-bin erwachsene">
+            <h3 class="translator" trans="Warning:">
 
-        <div id="play-img">
-        </div>
-    </div>
+            </h3>
+            <div class="warnung">
+                <h3 id="warnung"><span id="Warning:">Warnung: </span><span id="Mature">Erwachsene</span> <span id="Concepts">Konzepte</span>
+                </h3>
 
-    <h2>
 
-        What's his secret?
-        <br/>
+            </div>
+                <div class="jestem" id="jestem1"></div>
+                <div class="jesteye hidden" id="jesteye"></div>
+                <button type="button" class="btn btn-warning ">+16?</button>
+                <div class="input-group hidden">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Name</span>
+                    </div>
+                    <input type="text" id="name-input" aria-label="Name" class="form-control">
+                </div>
 
-        <br/> The Fabulous
-        <em>
-            <span style="color:rgb(221, 43, 221)"> Inno-Heart-App!</span>
-    </h2>
-    </em>
-    </h2>
-    <br/>
-    <div class="container2">
-        <div class="app-img"></div>
 
-        <div class="app-img2"></div>
-    </div>
+            </div>
+            <!-- deireadh le ich-bin 1 -->
+            <div class="ich-bin hidden" id="ich-bin2">
 
-    </div>
-    </div>
+                <h3>
+                    Ich will ritterliches Deutsch lernen!
+                    <!-- <span style="color:rgb(139, 95, 150)">Henry</span>
+                    <span style="color:rgb(64, 164, 124)">Heart</span> -->
+
+                </h3>
+                <div class="jestem" id="jestem1"></div>
+                <button type="button" id="aber1" class="btn btn-dark">aber...</button>
+            </div>
+
+
+            <div class="ich-bin  hidden" id="ich-bin3">
+
+                <h3>
+                    Aber ich bin in diesem<br /> gottverdammten Kreis gefangen seit <br />ich hier bin!
+                    <!-- <span style="color:rgb(139, 95, 150)">Henry</span>
+                    <span style="color:rgb(64, 164, 124)">Heart</span> -->
+
+                </h3>
+                <div class="jestem" id="jestem"></div>
+                <button type="button" id="menu">Menu</button>
+            </div>
+
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
