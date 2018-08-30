@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+clicked = false;
     console.log('document is ready: hallo world');
 
     console.log(name);
@@ -29,10 +31,26 @@ $(document).ready(function() {
 
     });
     $('.btn-warning').mouseleave(function(){
-        console.log("cannoo");
-        $('#jesteye').addClass('fader');
+      if(!clicked){
+      $('#jesteye').addClass('fader');}
     });
     
+    $('.btn-warning').click(function(){
+        clicked = true;
+        $('.btn-warning').addClass('hidden');
+        $('.input-group').removeClass('hidden');
+        $('.jesteye').removeClass('hidden');
+        $('.jesteye').removeClass('fader');
+      
+            $('html, body').animate({
+                scrollTop: $(".du-bist").offset().top
+            }, 2000);
+       
+   
+        });
+
+
+   
 
 });
 
