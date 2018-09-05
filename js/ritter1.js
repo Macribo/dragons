@@ -50,7 +50,9 @@ $(document).ready(function() {
             }
         );
         $("#eye2").click(function(){
-
+            $('.levelDescription').addClass('fader');
+            $('#daemonStar').addClass('fader');
+            $('#kungfu').removeClass('hidden');
         });
 
         $("#eye3").hover(
