@@ -1,3 +1,3 @@
 # ritterlich-Deutsch
 
-#Platform for exploring new language learning ideas 
+Platform for exploring new language learning ideas 
