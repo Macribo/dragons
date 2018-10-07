@@ -38,15 +38,15 @@ $(document).ready(function() {
     
             function () {
                 console.log("hover1");
-                $('.selectedLv').css("background-image", "url('./images/v1.png')");
-                $('.levelDescription').text(`Vorsicht: Diese App ändert das Bewusstsein`);
+                $('.selectedLv').css("background-image", "url('./images/julian.png')");
+                $('.levelDescription').text(`Julian`);
             }
         );
         $("#eye2").hover(
             function () {
                 console.log("hover2");
-                $('.selectedLv').css("background-image", "url('./images/v2.png')");
-                $('.levelDescription').text('Eine Theorie über Hypnose (Hinweis: Es ist nicht was du denkst; es ist was du denkst.)');
+                $('.selectedLv').css("background-image", "url('./images/victor.png')");
+                $('.levelDescription').text('Victor');
             }
         );
         $("#eye2").click(function(){
@@ -58,46 +58,46 @@ $(document).ready(function() {
         $("#eye3").hover(
             function () {
                 console.log("hover3");
-                $('.selectedLv').css("background-image", "url('./images/v3.png')");
+                $('.selectedLv').css("background-image", "url('./images/chickie.png')");
     
-                $('.levelDescription').text('Technologie, Magie und Realität: ein praktischer Rahmen');
+                $('.levelDescription').text('Chickie');
             }
         );
         $("#eye4").hover(
             function () {
                 console.log("hover4");
-                $('.selectedLv').css("background-image", "url('./images/v4.png')");
+                $('.selectedLv').css("background-image", "url('./images/imr.png')");
     
-                $('.levelDescription').text('Psychische Energie: Berühre die Welt mit deinem Gehirn');
+                $('.levelDescription').text('Imr');
             }
         );
         $("#eye5").hover(
             function () {
                 console.log("hover3");
-                $('.selectedLv').css("background-image", "url('./images/v5.png')");
-                $('.levelDescription').text('Kann jemand auf Deutsch auf Englisch denken? (Spoiler: \'No. \')');
+                $('.selectedLv').css("background-image", "url('./images/niha.png')");
+                $('.levelDescription').text('Niha');
             }
         );
         $("#eye6").hover(
             function () {
                 console.log("hover3");
-                $('.selectedLv').css("background-image", "url('./images/v6.png')");
+                $('.selectedLv').css("background-image", "url('./images/v7.png')");
     
-                $('.levelDescription').text('Den hypnotischen Bildschirm durchstechen (ohne das Gerät zu beschädigen)');
+                $('.levelDescription').text('Empty');
             }
         );
         $("#eye7").hover(
             function () {
                 console.log("hover3");
                 $('.selectedLv').css("background-image", "url('./images/v7.png')");
-                $('.levelDescription').text('Weniger falsch sein: Selbst, Ego & der Prozess, unseren Geist zu verändern');
+                $('.levelDescription').text('Empty');
             }
         );
         $("#eye8").hover(
             function () {
                 console.log("hover3");
-                $('.selectedLv').css("background-image", "url('./images/v8.png')");
-                $('.levelDescription').text('Pfad des Narren');
+                $('.selectedLv').css("background-image", "url('./images/v7.png')");
+                $('.levelDescription').text('Empty');
             }
         );
 
