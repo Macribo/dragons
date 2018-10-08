@@ -2,3 +2,49 @@
 Imrítear an chuid sin den app seo le fíor airgead.
 Níl sé ulamh le himirt fós. Téigh síar.
 
+
+
+when selecting county: "btn-mapview" appears in HUD 
+let var maps = [ 
+    {
+        title:"Co. Dhún na nGall",
+        book:default, // here goes name of county book. Default is 'Leabhair mór Dún na nGall' : The great book of Donegal;
+
+    
+    },{
+    title:  "" ,
+    book:  defaultBook ,
+    dwellings:  0 ,
+    totalPop:   0,
+    totalNowOnline:1   ,
+    taoiseach: null  ,
+    táiniste: null  ,
+    capital:  "" ,
+    countyNotesnotes:  [] ,
+    latestNews: ""  ,
+    districts:[]     ,
+    strength: 10  
+
+    }
+];
+
+let defaultBook ="The book of "+ this.title;
+
+
+/*
+ The user profiles are saved in a database - the project requires a node.js backend.
+
+ User begins with 3 cards , one of type rock, one of type paper, one of type scissors.
+ User can add more cards to her deck, by defeating enemies, like the serpent.
+ There are 32 counties. Each county can have one Taoiseach or 'Chieftain', and one Táiniste or 'Second in command';
+ If you are the first player to Enter a County, you can challenge the Chieftain. If there is no Chieftain, and you are not already a Chieftain of another County; you are automatically offered Chieftainship of the County. If you accept, The Book of the County Enters a new entry declaring the new Chieftain; and the latest news updates with this info. As Chieftain, you have access to the County Settings menu.
+ 
+If another player challenges your claim to chieftainship of the County;
+his challenge is added to the Challenge queue.
+A chieftain can not begin a new round until the County Challenge queue is empty or she withdraws her claim to Chieftainship.
+
+Challenges are rock-paper-scissors games between players. Chieftain challenges are played 'for keeps', and the game ends when one player runs out of cards or retreats. A Chieftain who retreats loses command of the county (but may still be Chieftain of another county).
+
+
+
+*/
